@@ -15,6 +15,8 @@ import (
 
 // Threshold over which a file is uploaded in muliple parts
 const MultipartThreshold = 2.5e+7
+
+// Size of chunks to split a multipart upload into
 const ChunkSize = 1e+7
 
 type Target struct {
